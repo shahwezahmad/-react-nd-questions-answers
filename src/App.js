@@ -1,6 +1,7 @@
 import './App.css';
+import FilterRecipies from './questions/FilterRecipies';
 // import GuessNumber from './questions/GuessNumber';
-import PasswordStrength from './questions/PasswordStrength';
+// import PasswordStrength from './questions/PasswordStrength';
 // import ChipInput from './questions/ChipInput';
 // import ToolTip from './questions/ToolTip';
 function App() {
@@ -10,7 +11,9 @@ function App() {
     // <GuessNumber />
     <div style={style.centerContainer}>
 
-      <PasswordStrength />
+      {/* <PasswordStrength /> */}
+      <FilterRecipies />
+
     </div>
   );
 }
